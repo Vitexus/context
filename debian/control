@@ -1,0 +1,29 @@
+Source: php-open-telemetry-context
+Section: php
+Priority: optional
+Maintainer: Vítězslav Dvořák <info@vitexsoftware.cz>
+Build-Depends:
+ debhelper-compat (= 13),
+ pkg-php-tools,
+ php-cli,
+ jq,
+ phpab,
+ appstream,
+Standards-Version: 4.7.0
+Homepage: https://github.com/open-telemetry/opentelemetry-php
+Rules-Requires-Root: no
+Vcs-Git: https://github.com/Vitexus/context.git
+Vcs-Browser: https://github.com/Vitexus/context
+
+Package: php-open-telemetry-context
+Architecture: all
+Multi-Arch: foreign
+Depends:
+ ${misc:Depends},
+ php-common,
+ php-symfony-polyfill-php82,
+ composer,
+Description: Context implementation for OpenTelemetry PHP
+ Provides the Context/ContextStorage implementation (including Fiber
+ support) and the context propagation interfaces (TextMapPropagator,
+ PropagationGetter/Setter) used by the OpenTelemetry PHP API/SDK.

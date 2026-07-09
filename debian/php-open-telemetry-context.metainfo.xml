@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component type="generic">
+  <id>cz.vitexsoftware.php-open-telemetry-context</id>
+  <metadata_license>MIT</metadata_license>
+  <project_license>Apache-2.0</project_license>
+  <name>OpenTelemetry Context for PHP</name>
+  <summary>Context implementation for OpenTelemetry PHP</summary>
+  <description>
+    <p>
+      Provides the Context/ContextStorage implementation (including Fiber
+      support) and the context propagation interfaces (TextMapPropagator,
+      PropagationGetter/Setter) used by the OpenTelemetry PHP API and SDK.
+    </p>
+  </description>
+  <icon type="stock">package-x-generic</icon>
+  <url type="homepage">https://github.com/open-telemetry/opentelemetry-php</url>
+</component>

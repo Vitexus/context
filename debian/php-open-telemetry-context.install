@@ -1,0 +1,3 @@
+*.php usr/share/php/OpenTelemetry/Context/
+fiber usr/share/php/OpenTelemetry/Context/
+Propagation usr/share/php/OpenTelemetry/Context/
